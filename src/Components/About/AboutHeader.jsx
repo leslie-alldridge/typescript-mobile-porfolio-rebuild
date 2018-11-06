@@ -1,24 +1,25 @@
-import React from 'react';
-import { Jumbotron } from 'react-bootstrap';
+import React from "react";
+import { Jumbotron } from "react-bootstrap";
 
 const divStyle = {
-  color: 'blue',
-  width: '100vw',
-  height: '10vh',
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-  position: 'relative'
+  color: "blue",
+
+  height: "10vh",
+  position: "relative",
+  width: "100vw",
+  backgroundPosition: "center",
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "cover"
 };
 
 const heroText = {
-  textAlign: 'center',
-  position: 'absolute',
-  top: '50%',
-  left: '50%',
-  transform: 'translate(-50%, -50%)',
-  color: 'white',
-  background: 'none'
+  textAlign: "center",
+  position: "absolute",
+  top: "50%",
+  left: "50%",
+  transform: "translate(-50%, -50%)",
+  color: "white",
+  background: "none"
 };
 
 export default function AboutHeader(props) {
