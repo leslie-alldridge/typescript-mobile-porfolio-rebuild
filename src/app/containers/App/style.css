@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
 html,
 body {
   margin: 0;
@@ -20,7 +20,7 @@ button {
 }
 
 body {
-  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /* font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.4em;
   background: #f5f5f5;
   color: #4d4d4d;
@@ -31,19 +31,19 @@ body {
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   font-smoothing: antialiased;
-  font-weight: 300;
+  font-weight: 300; */
 }
 
 button,
-input[type='checkbox'] {
+input[type="checkbox"] {
   outline: none;
 }
 
 .normal {
-  background: #fff;
+  /* background: #fff;
   margin: 200px 0 40px 0;
   position: relative;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .normal input::-webkit-input-placeholder {
@@ -64,7 +64,7 @@ input[type='checkbox'] {
   color: #e6e6e6;
 }
 
-.normal h1 {
+/* .normal h1 {
   position: absolute;
   top: -155px;
   width: 100%;
@@ -76,4 +76,8 @@ input[type='checkbox'] {
   -moz-text-rendering: optimizeLegibility;
   -ms-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
+} */
+
+.header h1 {
+  color: blue;
 }
