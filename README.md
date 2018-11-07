@@ -1,16 +1,68 @@
-# portfolio-mobile-first
+# Frontend Boilerplate with React, Redux & TypeScript
 
-## Goals 
-To create a mobile friendly version of my portfolio using mobile first design
-Link this project to my current portfolio and only users on mobile should see a prompt to visit this one instead
-Test landscape and portrait to ensure it's looking as intended
-Use an online mobile testing service to see how a myriad of devices will render this app. 
+A bare minimum react-redux-webpack-typescript boilerplate with TodoMVC example. 
 
-## Reflections
-I've built this website over a couple of days and kept it relatively simple but effective. I think this gives it a clean look and I'm on the fence whether it should replace my main portfolio or not. React Bootstrap helped with a lot of mobile containers but I still found I had to use custom CSS to get it working on most devices. I didn't mind doing this, because it was great practice to use media queries and test multiple devices. 
+[Live demo](https://rokoroku.github.io/react-redux-typescript-boilerplate)
 
-I enjoyed building this app. I kept my code a lot tidier and split out my components. This saved a lot of time when I had to go back and fix something, it was very easy to find (compared to my other portfolio code set). 
+Note that this project does not include **Server-Side Rendering**, **Static code analysis**, **Testing Frameworks** and other stuffs that makes the package unnecessarily complicated. (e.g. yarn, tslint, jest, ...)  
+If needed, please fork this repository and add your own that meets your requirements.
 
-## Where to from here?
+Ideal for creating React apps from the scratch.
 
-My next application is going to be a mobile friendly website for my local bakery. I haven't approached them yet, but I'm hoping to make some mocks and see if they're keen to have a website. If successful, that will be my third website I've created to help others out. I really enjoy the satisfaction and joy people display when they see the effort you've gone to, in order to create a pretty sweet website!
+See also: [react-mobx-typescript-boilerplate](https://github.com/rokoroku/react-mobx-typescript-boilerplate)
+
+## Contains
+
+- [x] [Typescript](https://www.typescriptlang.org/) 3
+- [x] [React](https://facebook.github.io/react/) 16.5
+- [x] [Redux](https://github.com/reactjs/redux) 4
+- [x] [React Router](https://github.com/ReactTraining/react-router) 4.3
+- [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
+- [x] [TodoMVC example](http://todomvc.com)
+
+### Build tools
+
+- [x] [Webpack](https://webpack.github.io) 4
+  - [x] [Tree Shaking](https://medium.com/@Rich_Harris/tree-shaking-versus-dead-code-elimination-d3765df85c80)
+  - [x] [Webpack Dev Server](https://github.com/webpack/webpack-dev-server)
+- [x] [Typescript Loader](https://github.com/TypeStrong/ts-loader)
+- [x] [PostCSS Loader](https://github.com/postcss/postcss-loader)
+  - [x] [PostCSS Preset Env](https://preset-env.cssdb.org/)
+  - [x] [CSS modules](https://github.com/css-modules/css-modules)
+- [x] [React Hot Loader](https://github.com/gaearon/react-hot-loader)
+- [x] [Mini CSS Extract Plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
+- [x] [HTML Webpack Plugin](https://github.com/ampedandwired/html-webpack-plugin)
+
+## Installation
+
+```
+$ npm ci
+```
+
+## Running
+
+```
+$ npm start
+```
+
+## Build
+
+```
+$ npm run build
+```
+
+## Deploy (to the [GitHub Pages](https://pages.github.com/))
+
+```
+$ npm run deploy
+```
+
+## Format code (using [Prettier](https://github.com/prettier/prettier))
+
+```
+$ npm run prettier
+```
+
+# License
+
+MIT
