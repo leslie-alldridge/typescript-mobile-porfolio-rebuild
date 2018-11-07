@@ -3,7 +3,9 @@
 ## Goals
 
 Recode my React application using Typescript and keeping their strict linting options on.
+
 Learn the ways of Typescript.
+
 Gain experience in moving an app to a new platform from the ground up.
 
 ### Stack
