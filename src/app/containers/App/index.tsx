@@ -4,6 +4,7 @@ import { NavbarTop } from '../../components/Navbar/index';
 import { Header } from '../../components/Header/index';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
+import { AboutHeader } from '../../components/About/AboutHeader';
 
 library.add(fab);
 
@@ -18,6 +19,7 @@ export class App extends React.Component {
         <NavbarTop />
         <Header />
         <p>hello</p>
+        <AboutHeader />
       </div>
     );
   }

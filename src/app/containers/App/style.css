@@ -43,3 +43,12 @@ body {
   border-radius: 0px !important;
   font-size: 120%;
 }
+
+.subHead {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 0, 150, 0.3),
+      rgba(255, 0, 150, 0.3)
+    ),
+    url('../../../assets/portfolioheader.png');
+}
