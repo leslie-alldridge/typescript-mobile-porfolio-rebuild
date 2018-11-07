@@ -33,3 +33,13 @@ body {
   color: 'white';
   background: 'none';
 }
+
+.navBarIcons {
+  margin-right: 5px;
+}
+
+.navbarModifications {
+  margin-bottom: 0 !important;
+  border-radius: 0px !important;
+  font-size: 120%;
+}

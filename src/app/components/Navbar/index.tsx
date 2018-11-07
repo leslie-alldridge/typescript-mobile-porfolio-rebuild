@@ -1,21 +1,16 @@
 import * as React from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as style from '../../containers/App/style.css';
 
 export class NavbarTop extends React.Component {
   render() {
     return (
       <div>
-        <Navbar
-          style={{ margin: '0', borderRadius: '0px' }}
-          inverse
-          collapseOnSelect
-        >
+        <Navbar className={style.navbarModifications} inverse collapseOnSelect>
           <Navbar.Header style={{ paddingLeft: '2%', paddingRight: '2%' }}>
             <Navbar.Brand>
-              <a id="navBrand" href="">
-                Leslie Alldridge
-              </a>
+              <span style={{ color: 'white' }}>Leslie Alldridge</span>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -40,7 +35,10 @@ export class NavbarTop extends React.Component {
                 target="_blank"
                 href="https://github.com/leslie-alldridge"
               >
-                <FontAwesomeIcon icon={['fab', 'github']} />
+                <FontAwesomeIcon
+                  className={style.navBarIcons}
+                  icon={['fab', 'github']}
+                />
                 Github
               </NavItem>
               <NavItem
@@ -48,7 +46,10 @@ export class NavbarTop extends React.Component {
                 target="_blank"
                 href="https://www.linkedin.com/in/lesliealldridge/"
               >
-                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                <FontAwesomeIcon
+                  className={style.navBarIcons}
+                  icon={['fab', 'linkedin']}
+                />
                 LinkedIn
               </NavItem>
             </Nav>
