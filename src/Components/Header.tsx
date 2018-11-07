@@ -1,5 +1,6 @@
-import * as React from "react";
-import { Jumbotron } from "react-bootstrap";
+import * as React from 'react';
+import { Jumbotron } from 'react-bootstrap';
+import * as style from './App.css';
 
 // const divStyle = {
 //   color: "blue",
@@ -23,7 +24,7 @@ import { Jumbotron } from "react-bootstrap";
 
 export default function Header(props: any) {
   return (
-    <div id="mainImg">
+    <div className={style.normal}>
       <Jumbotron>
         <h1>Leslie Alldridge</h1>
         <p>Full Stack Web Developer &amp; Technical Support</p>
