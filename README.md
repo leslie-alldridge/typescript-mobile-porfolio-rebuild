@@ -10,9 +10,13 @@ Gain experience in moving an app to a new platform from the ground up.
 
 ### Stack
 React
+
 Webpack
+
 Font Awesome
+
 Typescript
+
 Heroku (deploy)
 
 ## Installation
