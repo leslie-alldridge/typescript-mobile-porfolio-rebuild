@@ -1,2 +1,2 @@
-export { Footer } from './Footer';
+export { NavbarTop } from './Navbar';
 export { Header } from './Header';
