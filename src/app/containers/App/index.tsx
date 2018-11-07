@@ -10,7 +10,7 @@ export namespace App {
 export class App extends React.Component {
   render() {
     return (
-      <div className={style.normal}>
+      <div className={style.new}>
         <Header />
         <p>hello</p>
         <Footer />
