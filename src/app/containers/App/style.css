@@ -158,3 +158,43 @@ body {
   text-decoration: none;
   color: rgba(219, 57, 57, 0.801);
 }
+
+/* Blog Styling */
+
+.navBlog {
+  margin-top: 2%;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color: rgba(219, 89, 57, 0.801) !important;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.centerTabs {
+  text-align: center;
+  margin: 0 auto !important;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  word-wrap: inherit;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blogCol {
+  padding: 20px;
+}
+
+.date {
+  margin-bottom: 3%;
+}

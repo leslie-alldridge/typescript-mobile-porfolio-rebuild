@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Jumbotron } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import * as style from '../../containers/App/style.css';
 
 const divStyle = {
