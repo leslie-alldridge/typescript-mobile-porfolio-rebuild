@@ -3,6 +3,8 @@ import { Grid, Thumbnail, Row, Col } from 'react-bootstrap';
 
 import { PortfolioHeader } from './PortfolioHeader';
 
+import * as style from '../../containers/App/style.css';
+
 export class Portfolio extends React.Component {
   render() {
     return (
@@ -11,7 +13,7 @@ export class Portfolio extends React.Component {
         <Grid>
           <Row>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -22,7 +24,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/new.png"
                 alt="242x200"
                 href="https://backpack-tracker.herokuapp.com/"
@@ -40,7 +42,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -51,7 +53,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/gyst.png"
                 alt="242x200"
                 href="http://gyst-dash.herokuapp.com/"
@@ -69,7 +71,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -80,7 +82,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/void2.png"
                 alt="242x200"
                 target="_blank"
@@ -101,7 +103,7 @@ export class Portfolio extends React.Component {
           {/* SECOND ROW */}
           <Row>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -112,7 +114,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/duplicate.png"
                 alt="242x200"
                 href="https://v1invoicereducer.herokuapp.com/"
@@ -131,7 +133,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -142,7 +144,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/cube.png"
                 alt="242x200"
                 href="https://cubetimer102.herokuapp.com/"
@@ -160,7 +162,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -171,7 +173,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/motiv.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/slackbot-motivation"
@@ -194,7 +196,7 @@ export class Portfolio extends React.Component {
           {/* THIRD ROW */}
           <Row>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -205,7 +207,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/v2void.png"
                 alt="242x200"
                 href="https://bulkvoidxero.herokuapp.com/"
@@ -224,7 +226,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -235,7 +237,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/circles.png"
                 alt="242x200"
                 href="https://leslie-alldridge.github.io/Fun-with-Circles/"
@@ -253,7 +255,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -264,7 +266,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/summary2.png"
                 alt="242x200"
                 href="http://dailysummaryxero.herokuapp.com/"
@@ -285,7 +287,7 @@ export class Portfolio extends React.Component {
           {/* FOURTH ROW */}
           <Row>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -296,7 +298,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/docker.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/mern-boilerplate"
@@ -327,7 +329,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -338,7 +340,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/numbergame2.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/number-guesser"
@@ -358,7 +360,7 @@ export class Portfolio extends React.Component {
               </Thumbnail>
             </Col>
             <Col
-              id="portfolio-col"
+              className={style.portfolioCol}
               xs={12}
               md={4}
               data-aos="flip-up"
@@ -369,7 +371,7 @@ export class Portfolio extends React.Component {
               data-aos-once="true"
             >
               <Thumbnail
-                id="port"
+                className={style.port}
                 src="../../assets/loading.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge"

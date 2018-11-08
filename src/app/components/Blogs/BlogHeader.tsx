@@ -27,7 +27,7 @@ const heroText = {
 export class BlogHeader extends React.Component {
   render() {
     return (
-      <div className={style.subHead} style={divStyle}>
+      <div className={style.subHead} style={divStyle} id="blogs">
         <Jumbotron style={heroText}>
           <h3
             data-aos="slide-left"

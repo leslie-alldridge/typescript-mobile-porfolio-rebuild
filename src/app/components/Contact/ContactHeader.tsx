@@ -27,7 +27,7 @@ const heroText = {
 export class ContactHeader extends React.Component {
   render() {
     return (
-      <div className={style.subHead} style={divStyle}>
+      <div className={style.subHead} style={divStyle} id="contact">
         <Jumbotron style={heroText}>
           <h3
             data-aos="slide-left"

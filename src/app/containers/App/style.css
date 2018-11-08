@@ -75,6 +75,7 @@ body {
 
 .aboutPage {
   margin-top: 2%;
+  margin-bottom: 20%;
   display: inline-flex;
   width: 100%;
   text-align: justify;
@@ -123,6 +124,10 @@ body {
   .contactHead {
     margin-left: 14%;
   }
+  .portfolioCol {
+    width: 95%;
+    margin-left: 2.5%;
+  }
 }
 
 /* Contact Card Styling */
@@ -164,7 +169,6 @@ body {
 /* Blog Styling */
 
 .navBlog {
-  margin-top: 2%;
   display: inline-block;
   float: none;
   vertical-align: top;
@@ -199,4 +203,19 @@ body {
 
 .date {
   margin-bottom: 3%;
+}
+
+/* Portfolio Styling */
+
+.port {
+  margin-top: 4%;
+  min-height: 385px;
+  min-width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.port:hover {
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(255, 17, 0, 0.2),
+    0 6px 20px 0 rgba(255, 17, 0, 0.19);
 }
