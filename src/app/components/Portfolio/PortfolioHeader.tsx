@@ -6,12 +6,12 @@ import * as style from '../../containers/App/style.css';
 
 const divStyle = {
   color: 'blue',
-  height: '10vh',
-  position: 'relative',
   width: '100vw',
+  height: '10vh',
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
+  position: 'relative'
 } as React.CSSProperties;
 
 const heroText = {
@@ -24,7 +24,7 @@ const heroText = {
   background: 'none'
 } as React.CSSProperties;
 
-export class ContactHeader extends React.Component {
+export class PortfolioHeader extends React.Component {
   render() {
     return (
       <div className={style.subHead} style={divStyle}>
@@ -37,7 +37,7 @@ export class ContactHeader extends React.Component {
             data-aos-mirror="true"
             data-aos-once="true"
           >
-            Contact
+            Portfolio
           </h3>
         </Jumbotron>
         <a className={style.arrow} href="#">
