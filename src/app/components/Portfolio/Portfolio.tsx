@@ -3,7 +3,7 @@ import { Grid, Thumbnail, Row, Col } from 'react-bootstrap';
 
 import { PortfolioHeader } from './PortfolioHeader';
 
-export default class Portfolio extends React.Component {
+export class Portfolio extends React.Component {
   render() {
     return (
       <div>
@@ -23,7 +23,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/new.png"
+                src="../../assets/new.png"
                 alt="242x200"
                 href="https://backpack-tracker.herokuapp.com/"
                 target="_blank"
@@ -52,7 +52,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/gyst.png"
+                src="../../assets/gyst.png"
                 alt="242x200"
                 href="http://gyst-dash.herokuapp.com/"
                 target="_blank"
@@ -81,7 +81,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/void2.png"
+                src="../../assets/void2.png"
                 alt="242x200"
                 target="_blank"
                 href="https://community.xero.com/business/discussion/262531"
@@ -113,7 +113,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/duplicate.png"
+                src="../../assets/duplicate.png"
                 alt="242x200"
                 href="https://v1invoicereducer.herokuapp.com/"
                 target="_blank"
@@ -143,7 +143,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/cube.png"
+                src="../../assets/cube.png"
                 alt="242x200"
                 href="https://cubetimer102.herokuapp.com/"
                 target="_blank"
@@ -172,7 +172,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/motiv.png"
+                src="../../assets/motiv.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/slackbot-motivation"
                 target="_blank"
@@ -206,7 +206,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/v2void.png"
+                src="../../assets/v2void.png"
                 alt="242x200"
                 href="https://bulkvoidxero.herokuapp.com/"
                 target="_blank"
@@ -236,7 +236,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/circles.png"
+                src="../../assets/circles.png"
                 alt="242x200"
                 href="https://leslie-alldridge.github.io/Fun-with-Circles/"
                 target="_blank"
@@ -265,7 +265,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/summary2.png"
+                src="../../assets/summary2.png"
                 alt="242x200"
                 href="http://dailysummaryxero.herokuapp.com/"
                 target="_blank"
@@ -297,7 +297,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/docker.png"
+                src="../../assets/docker.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/mern-boilerplate"
                 target="_blank"
@@ -339,7 +339,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/numbergame2.png"
+                src="../../assets/numbergame2.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/number-guesser"
                 target="_blank"
@@ -370,7 +370,7 @@ export default class Portfolio extends React.Component {
             >
               <Thumbnail
                 id="port"
-                src="/loading.png"
+                src="../../assets/loading.png"
                 alt="242x200"
                 href="https://github.com/leslie-alldridge"
                 target="_blank"

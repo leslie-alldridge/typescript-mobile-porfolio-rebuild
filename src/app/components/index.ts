@@ -6,4 +6,4 @@ export { ContactHeader } from './Contact/ContactHeader';
 export { ContactContent } from './Contact/ContactContent';
 export { BlogHeader } from './Blogs/BlogHeader';
 export { BlogContent } from './Blogs/BlogContent';
-export { PortfolioHeader } from './Portfolio/PortfolioHeader';
+export { Portfolio } from './Portfolio/Portfolio';

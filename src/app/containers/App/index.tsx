@@ -12,7 +12,7 @@ import {
   ContactHeader,
   Header,
   NavbarTop,
-  PortfolioHeader
+  Portfolio
 } from 'app/components';
 
 library.add(fab, fas);
@@ -23,7 +23,7 @@ export class App extends React.Component {
       <div className={style.new}>
         <NavbarTop />
         <Header />
-        <PortfolioHeader />
+        <Portfolio />
         <BlogHeader />
         <BlogContent />
         <ContactHeader />
