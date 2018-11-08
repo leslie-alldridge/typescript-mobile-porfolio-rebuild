@@ -5,8 +5,10 @@ import { Header } from '../../components/Header/index';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { AboutHeader } from '../../components/About/AboutHeader';
+import { AboutContent } from '../../components/About/AboutContent';
+import { fas } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab);
+library.add(fab, fas);
 
 export namespace App {
 
@@ -18,8 +20,8 @@ export class App extends React.Component {
       <div className={style.new}>
         <NavbarTop />
         <Header />
-        <p>hello</p>
         <AboutHeader />
+        <AboutContent />
       </div>
     );
   }

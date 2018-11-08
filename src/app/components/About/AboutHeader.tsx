@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Jumbotron } from "react-bootstrap";
 import * as style from '../../containers/App/style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const divStyle = {
   color: "blue",
@@ -38,8 +39,11 @@ export class AboutHeader extends React.Component {
           About
         </h3>
       </Jumbotron>
-      <a id="top" href="">
-        {/* <i id="arrow" class="fas fa-chevron-circle-up" /> */}
+      <a className={style.arrow} href="#">
+        <FontAwesomeIcon
+          className={style.navBarIcons}
+          icon={'chevron-circle-up'}
+        />
       </a>
     </div>
   );
