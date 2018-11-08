@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { Well } from 'react-bootstrap';
+import * as style from '../../containers/App/style.css';
 
 export class AboutContent extends React.Component {
 render(){
   return (
     <div className="container">
-      <div id="aboutPage">
-        <Well id="wellLeft" bsSize="large">
+      <div className={style.aboutPage}>
+        <Well className={style.wellLeft} bsSize="large">
           <h3>About Leslie</h3> <br />
           Hi there! First of all, thanks for checking out my portfolio.
           <p />
@@ -33,7 +34,7 @@ render(){
           after one another. I value honesty, caring for others, hard work and
           timeliness.
         </Well>
-        <Well id="wellRight" bsSize="large">
+        <Well className={style.wellRight} bsSize="large">
           <h3>About My Portfolio</h3>
           <strong>
             <i>
