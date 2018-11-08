@@ -1,7 +1,7 @@
-import * as React from "react";
-import { Media } from "react-bootstrap";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as style from "../../containers/App/style.css";
+import * as React from 'react';
+import { Media } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import * as style from '../../containers/App/style.css';
 
 export class ContactContent extends React.Component {
   render() {
@@ -62,8 +62,8 @@ export class ContactContent extends React.Component {
                   href="https://www.linkedin.com/in/lesliealldridge/"
                 >
                   <FontAwesomeIcon
-                    className={style.navBarIcons}
-                    icon={["fab", "linkedin"]}
+                    className={style.contactIcons}
+                    icon={['fab', 'linkedin']}
                   />
                   LinkedIn
                 </a>
@@ -73,8 +73,8 @@ export class ContactContent extends React.Component {
                   href="https://github.com/leslie-alldridge"
                 >
                   <FontAwesomeIcon
-                    className={style.navBarIcons}
-                    icon={["fab", "github"]}
+                    className={style.contactIcons}
+                    icon={['fab', 'github']}
                   />
                   GitHub
                 </a>

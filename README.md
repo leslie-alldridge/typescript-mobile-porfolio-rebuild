@@ -8,7 +8,12 @@ Learn the ways of Typescript.
 
 Gain experience in moving an app to a new platform from the ground up.
 
+### Todo
+
+visited ^ top links are turning darker color
+
 ### Stack
+
 React
 
 Webpack
@@ -22,7 +27,7 @@ Heroku (deploy)
 ## Installation
 
 ```
-$ yarn 
+$ yarn
 ```
 
 ## Running
@@ -30,5 +35,7 @@ $ yarn
 ```
 $ yarn start
 ```
+
 ## Website
+
 TBA
