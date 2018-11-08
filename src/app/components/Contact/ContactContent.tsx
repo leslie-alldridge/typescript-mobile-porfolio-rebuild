@@ -8,15 +8,15 @@ export class ContactContent extends React.Component {
     return (
       <div className="container">
         <Media className={style.contactCard}>
-          <div id="center">
+          <div className={style.contactCardCenter}>
             <Media.Left align="top">
               <img
-                className="img-circle"
+                className={style.imageCircle}
+                // className="img-circle"
                 width={128}
                 height={128}
                 src="../../assets/pimg.jpg"
                 alt="thumbnail"
-                id="imgCircle"
               />
             </Media.Left>
             <Media.Body align="right">
