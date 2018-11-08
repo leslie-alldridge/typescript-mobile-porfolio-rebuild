@@ -1,5 +1,5 @@
-import React from 'react';
-import { Media } from 'react-bootstrap';
+import React from "react";
+import { Media } from "react-bootstrap";
 
 export default function Contact(props) {
   return (
@@ -12,7 +12,7 @@ export default function Contact(props) {
               responsive
               width={128}
               height={128}
-              src="/pimg.jpg"
+              src="../../assets/pimg.jpg"
               alt="thumbnail"
               id="imgCircle"
             />
