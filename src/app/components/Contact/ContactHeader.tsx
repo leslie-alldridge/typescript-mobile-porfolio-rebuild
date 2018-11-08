@@ -23,7 +23,7 @@ const heroText = {
   background: "none"
 } as React.CSSProperties;
 
-export class AboutHeader extends React.Component {
+export class ContactHeader extends React.Component {
   render(){
     return (
     <div className={style.subHead} style={divStyle}>
@@ -36,7 +36,7 @@ export class AboutHeader extends React.Component {
           data-aos-mirror="true"
           data-aos-once="true"
         >
-          About
+          Contact
         </h3>
       </Jumbotron>
       <a className={style.arrow} href="#">

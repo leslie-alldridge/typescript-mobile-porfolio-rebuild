@@ -63,7 +63,8 @@ body {
 }
 
 .arrowIcons {
-  margin-top: 50%;
+  color: white;
+  font-size: 1.5em !important;
 }
 
 .aboutPage {
@@ -87,6 +88,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .arrowIcons {
+    margin-top: 50%;
+  }
   .aboutPage {
     margin-top: 2%;
     display: flex;

@@ -40,7 +40,7 @@ render(){
             <i>
               This is a mobile first design to compliment my main portfolio
               website that you can view{' '}
-              <a href="https://portfolio-leslie.herokuapp.com/">here.</a>
+              <a target="_blank" href="https://portfolio-leslie.herokuapp.com/">here.</a>
             </i>
           </strong>
           <br />
@@ -54,7 +54,7 @@ render(){
           <p />
           I've included more details about my reflections in the readme over on
           GitHub (
-          <a href="https://github.com/leslie-alldridge/personal-blog-react-rebuild">
+          <a target="_blank" href="https://github.com/leslie-alldridge/personal-blog-react-rebuild">
             here
           </a>
           ) This website is powered by the following technologies:
