@@ -115,6 +115,9 @@ body {
     margin-left: 28%;
     border-radius: 50%;
   }
+  .contactHead {
+    margin-left: 14%;
+  }
 }
 
 .imageCircle {
@@ -137,4 +140,16 @@ body {
 .contactCardCenter {
   margin: 0 auto;
   max-width: 600px;
+}
+
+.contactLink {
+  font-size: 1.2em;
+  margin-right: 2%;
+  padding-top: 5%;
+  color: black;
+}
+
+.contactLink:hover {
+  text-decoration: none;
+  color: rgba(219, 57, 57, 0.801);
 }

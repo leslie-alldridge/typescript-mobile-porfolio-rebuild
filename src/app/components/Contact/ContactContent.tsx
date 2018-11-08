@@ -12,7 +12,6 @@ export class ContactContent extends React.Component {
             <Media.Left align="top">
               <img
                 className={style.imageCircle}
-                // className="img-circle"
                 width={128}
                 height={128}
                 src="../../assets/pimg.jpg"
@@ -20,7 +19,9 @@ export class ContactContent extends React.Component {
               />
             </Media.Left>
             <Media.Body align="right">
-              <Media.Heading id="contactHead">Leslie Alldridge</Media.Heading>
+              <Media.Heading className={style.contactHead}>
+                Leslie Alldridge
+              </Media.Heading>
               <ul>
                 <li
                   data-aos-once="true"
@@ -56,7 +57,8 @@ export class ContactContent extends React.Component {
                 </li>
 
                 <a
-                  id="contactLink"
+                  target="_blank"
+                  className={style.contactLink}
                   href="https://www.linkedin.com/in/lesliealldridge/"
                 >
                   <FontAwesomeIcon
@@ -65,7 +67,11 @@ export class ContactContent extends React.Component {
                   />
                   LinkedIn
                 </a>
-                <a id="contactLink" href="https://github.com/leslie-alldridge">
+                <a
+                  target="_blank"
+                  className={style.contactLink}
+                  href="https://github.com/leslie-alldridge"
+                >
                   <FontAwesomeIcon
                     className={style.navBarIcons}
                     icon={["fab", "github"]}
