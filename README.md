@@ -22,7 +22,7 @@ Font Awesome
 
 Typescript
 
-Heroku (deploy)
+Docker Container to Heroku (deploy)
 
 ## Installation
 
