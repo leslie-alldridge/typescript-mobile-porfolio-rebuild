@@ -4,6 +4,18 @@ import { Grid, Thumbnail, Row, Col } from 'react-bootstrap';
 import { PortfolioHeader } from './PortfolioHeader';
 
 import * as style from '../../containers/App/style.css';
+import * as backPack from '../../images/new.png';
+import * as gystImg from '../../images/gyst.png';
+import * as voidV1 from '../../images/void2.png';
+import * as reduceV1 from '../../images/duplicate.png';
+import * as timer from '../../images/cube.png';
+import * as motivate from '../../images/motiv.png';
+import * as voidV2 from '../../images/v2void.png';
+import * as circles from '../../images/circles.png';
+import * as reduceV2 from '../../images/summary2.png';
+import * as docker from '../../images/docker.png';
+import * as number from '../../images/numbergame2.png';
+import * as more from '../../images/loading.png';
 
 export class Portfolio extends React.Component {
   render() {
@@ -25,7 +37,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/new.png"
+                src={backPack}
                 alt="242x200"
                 href="https://backpack-tracker.herokuapp.com/"
                 target="_blank"
@@ -54,7 +66,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/gyst.png"
+                src={gystImg}
                 alt="242x200"
                 href="http://gyst-dash.herokuapp.com/"
                 target="_blank"
@@ -83,7 +95,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/void2.png"
+                src={voidV1}
                 alt="242x200"
                 target="_blank"
                 href="https://community.xero.com/business/discussion/262531"
@@ -115,7 +127,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/duplicate.png"
+                src={reduceV1}
                 alt="242x200"
                 href="https://v1invoicereducer.herokuapp.com/"
                 target="_blank"
@@ -145,7 +157,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/cube.png"
+                src={timer}
                 alt="242x200"
                 href="https://cubetimer102.herokuapp.com/"
                 target="_blank"
@@ -174,7 +186,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/motiv.png"
+                src={motivate}
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/slackbot-motivation"
                 target="_blank"
@@ -208,7 +220,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/v2void.png"
+                src={voidV2}
                 alt="242x200"
                 href="https://bulkvoidxero.herokuapp.com/"
                 target="_blank"
@@ -238,7 +250,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/circles.png"
+                src={circles}
                 alt="242x200"
                 href="https://leslie-alldridge.github.io/Fun-with-Circles/"
                 target="_blank"
@@ -267,7 +279,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/summary2.png"
+                src={reduceV2}
                 alt="242x200"
                 href="http://dailysummaryxero.herokuapp.com/"
                 target="_blank"
@@ -299,7 +311,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/docker.png"
+                src={docker}
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/mern-boilerplate"
                 target="_blank"
@@ -341,7 +353,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/numbergame2.png"
+                src={number}
                 alt="242x200"
                 href="https://github.com/leslie-alldridge/number-guesser"
                 target="_blank"
@@ -372,7 +384,7 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src="../../assets/loading.png"
+                src={more}
                 alt="242x200"
                 href="https://github.com/leslie-alldridge"
                 target="_blank"

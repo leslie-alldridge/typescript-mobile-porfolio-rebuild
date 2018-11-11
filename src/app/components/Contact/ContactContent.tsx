@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Media } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as style from '../../containers/App/style.css';
+import * as contactImg from '../../images/pimg.jpg';
 
 export class ContactContent extends React.Component {
   render() {
@@ -14,7 +15,7 @@ export class ContactContent extends React.Component {
                 className={style.imageCircle}
                 width={128}
                 height={128}
-                src="../../assets/pimg.jpg"
+                src={contactImg}
                 alt="thumbnail"
               />
             </Media.Left>
