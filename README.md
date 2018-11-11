@@ -8,6 +8,8 @@ Learn the ways of Typescript.
 
 Gain experience in moving an app to a new platform from the ground up.
 
+Solidify my new Docker knowledge and deploy another container
+
 ### Todo
 
 visited ^ top links are turning darker color
@@ -15,6 +17,10 @@ visited ^ top links are turning darker color
 ### Stack
 
 React
+
+React-Bootstrap
+
+Express
 
 Webpack
 
@@ -38,4 +44,4 @@ $ yarn start
 
 ## Website
 
-TBA
+https://leslie-type-portfolio.herokuapp.com/
