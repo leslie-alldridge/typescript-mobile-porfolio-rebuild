@@ -44,4 +44,4 @@ $ yarn start
 
 ## Website
 
-https://leslie-type-portfolio.herokuapp.com/
+https://leslie-typescript-portfolio.herokuapp.com/
