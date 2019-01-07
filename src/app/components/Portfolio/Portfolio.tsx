@@ -1,21 +1,24 @@
-import * as React from 'react';
-import { Grid, Thumbnail, Row, Col } from 'react-bootstrap';
+import * as React from "react";
+import { Grid, Thumbnail, Row, Col } from "react-bootstrap";
 
-import { PortfolioHeader } from './PortfolioHeader';
+import { PortfolioHeader } from "./PortfolioHeader";
 
-import * as style from '../../containers/App/style.css';
-import * as backPack from '../../images/new.png';
-import * as gystImg from '../../images/gyst.png';
-import * as voidV1 from '../../images/void2.png';
-import * as reduceV1 from '../../images/duplicate.png';
-import * as timer from '../../images/cube.png';
-import * as motivate from '../../images/motiv.png';
-import * as voidV2 from '../../images/v2void.png';
-import * as circles from '../../images/circles.png';
-import * as reduceV2 from '../../images/summary2.png';
-import * as docker from '../../images/docker.png';
-import * as number from '../../images/numbergame2.png';
-import * as more from '../../images/loading.png';
+import * as style from "../../containers/App/style.css";
+import * as backPack from "../../images/new.png";
+import * as gystImg from "../../images/gyst.png";
+import * as voidV1 from "../../images/void2.png";
+import * as reduceV1 from "../../images/duplicate.png";
+import * as timer from "../../images/cube.png";
+import * as motivate from "../../images/motiv.png";
+import * as voidV2 from "../../images/v2void.png";
+import * as circles from "../../images/circles.png";
+import * as reduceV2 from "../../images/summary2.png";
+import * as docker from "../../images/docker.png";
+import * as number from "../../images/numbergame2.png";
+import * as loading from '../../images/loading.png';
+import * as oll from '../../images/oll.png'
+import * as hub from '../../images/hub.png'
+import * as auth from '../../images/auth.png'
 
 export class Portfolio extends React.Component {
   render() {
@@ -322,14 +325,14 @@ export class Portfolio extends React.Component {
                 <br />
                 <p>
                   I've learned how to use various Docker commands to create
-                  images, host projects on Docker and deploy them to Heroku.{' '}
+                  images, host projects on Docker and deploy them to Heroku.{" "}
                   <a
                     href="https://github.com/leslie-alldridge/mern-boilerplate"
                     target="_blank"
                   >
                     Boilerplate
-                  </a>{' '}
-                  and{' '}
+                  </a>{" "}
+                  and{" "}
                   <a
                     href="https://github.com/leslie-alldridge/docker-node-mongo"
                     target="_blank"
@@ -366,8 +369,7 @@ export class Portfolio extends React.Component {
                   I decided to dive into C# and challenge myself to learn
                   something new. I covered the basics and created a small
                   console game to test my skills. C# is definitely something on
-                  my radar of languages to learn and it's starting to feel
-                  natural.
+                  my radar.
                 </p>
               </Thumbnail>
             </Col>
@@ -384,9 +386,73 @@ export class Portfolio extends React.Component {
             >
               <Thumbnail
                 className={style.port}
-                src={more}
+                src={oll}
                 alt="242x200"
-                href="https://github.com/leslie-alldridge"
+                href="https://olltrainer.herokuapp.com/"
+                target="_blank"
+              >
+                <h3>
+                  <b>OLL Trainer</b>
+                </h3>
+                <br />
+                <p>
+                  Learning Rubik's cubes is primarily PDF based. So I've created
+                  a site to help me learn all of the OLL cases. This is
+                  currently in development.
+                </p>
+              </Thumbnail>
+            </Col>
+          </Row>
+          {/* Fifth ROW */}
+          <Row>
+            <Col xs={6} md={4}>
+              <Thumbnail
+               className={style.port}
+                src={hub}
+                alt="242x200"
+                href="http://cxtech-wlg.herokuapp.com/#/"
+                target="_blank"
+              >
+                <h3>
+                  <b>Feedback App for CX-Tech</b>
+                </h3>
+                <br />
+                <p>
+                  I created a prototype app for my current Team Leader and asked
+                  for feedback on it. This later turned into an app I could
+                  build for my team at work.{" "}
+                  <a target="_blank" href="https://cxtech.herokuapp.com/">
+                    First prototype
+                  </a>
+                  .
+                </p>
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail
+                className={style.port}
+                src={auth}
+                alt="242x200"
+                href="https://github.com/leslie-alldridge/pwreset-auth"
+                target="_blank"
+              >
+                <h3>
+                  <b>Passport Auth Boilerplate</b>
+                </h3>
+                <br />
+                <p>
+                  During my time at EDA I noticed their Auth assignment needed
+                  some love. I've rebuilt it and included password resets.
+                  Currently working with them to turn it into an assignment.
+                </p>
+              </Thumbnail>
+            </Col>
+            <Col xs={6} md={4}>
+              <Thumbnail
+                 className={style.port}
+                src={loading}
+                alt="242x200"
+                href=""
                 target="_blank"
               >
                 <h3>
@@ -395,8 +461,7 @@ export class Portfolio extends React.Component {
                 <br />
                 <p>
                   I'm learning something new every day! Stay up to date by
-                  following me on GitHub or checking back here as my portfolio
-                  will be updated regularly.
+                  following me on GitHub or checking back here.
                 </p>
               </Thumbnail>
             </Col>
