@@ -13,7 +13,7 @@ import {
   Header,
   NavbarTop,
   Portfolio
-} from 'app/components';
+} from '../../components';
 
 library.add(fab, fas);
 
