@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "webpack  && node index.js",
-    "start": "webpack  && node index.js",
+    "start": "node index.js",
     "dev": "nodemon --watch & webpack --watch --mode development",
     "build": "webpack  --progress --colors"
   },
@@ -28,7 +28,6 @@
     "@types/redux-actions": "2.3.1",
     "@types/webpack": "4.4.16",
     "@types/webpack-env": "1.13.6",
-    "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.4",
     "classnames": "^2.2.6",
     "css-loader": "^1.0.0",
