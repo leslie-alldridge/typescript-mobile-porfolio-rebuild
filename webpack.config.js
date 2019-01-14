@@ -10,7 +10,7 @@ let outPath = path.join(__dirname, './build');
 // plugins
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 let MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
+let CopyWebpackPlugin = require('copy-webpack-plugin')
 module.exports = {
   context: sourcePath,
   entry: {
