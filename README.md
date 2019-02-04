@@ -13,6 +13,7 @@ Solidify my new Docker knowledge and deploy another container
 ### Todo
 
 visited ^ top links are turning darker color
+Animations won't work on older mobile phones - can set mobile to disabled for aos library
 
 ### Stack
 
